@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> Ejercicio Multimedia</title>
+</head>
+
+<body>
+    <div>
+    <h1>"Aprendiendo a utilizar imágenes"</h1>
+    <hr/>
+    <img src="Imagenes/bo.jpg" alt="Black Ops" width="350" height="350"/>
+    </div>
+
+    <div>
+        <h1>Aprendiendo a utilizar los vídeos</h1>
+        <hr/>
+        <video controls autoplay muted loop>
+            <source src="Imagenes/lucia.MP4" type="video/mp4"/>
+        </video>
+    </div>
+
+    <div>
+        <h1>Aprendiendo a utilizar los audios</h1>
+        <hr/>
+        <audio controls autoplay muted loop>
+            <source src="Imagenes/Surra.ogg" type="audio/ogg"/>
+        </audio>
+    </div>
+</body>
+</html>

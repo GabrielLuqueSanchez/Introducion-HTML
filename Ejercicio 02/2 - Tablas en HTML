@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 02/2 - Tablas en HTML</title>
+    </head>
+    <body>
+        <h1> Tabla de Libros</h1>
+        <hr>
+        
+        <table>
+            <tr>
+                <th>Titulo</th>
+                <th>Autor</th>
+                <th>Año de Publicación/th>
+                <th>Enlace a Amazon</th>
+            </tr>
+            <tr>
+                <td>El Señor de los Anillos</td>
+                <td>JRR Tolkien </td>
+                <td>1954 </td>
+                <td><a href="https://www.amazon.es/Se%C3%B1or-Anillos-Comunidad-Anillo-Libros-ebook/dp/B0064T03BM/ref=sr_1_1_sspa?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=JCMIIIMVIBE4&keywords=el+se%C3%B1or+de+los+anillos+libro&qid=1666348714&qu=eyJxc2MiOiI0LjYwIiwicXNhIjoiNC4wNiIsInFzcCI6IjMuNTEifQ%3D%3D&sprefix=el+se%C3%B1or+de+los+anillos+libro%2Caps%2C102&sr=8-1-spons&psc=1"> El señor de los anillos</a></td>
+            </tr>
+            <tr>
+                <td> El Italiano</td>
+                <td> Arturo Perez Reverte </td>
+                <td>2021 </td>
+                <td><a href="https://www.amazon.es/El-italiano-novela-guerra-Hisp%C3%A1nica/dp/8420460494/ref=sr_1_5?adgrpid=110351552776&gclid=Cj0KCQjwhsmaBhCvARIsAIbEbH5q8ASXBCLYrZRCwmaS7BzmC0iVce0Ml-ACPOyJItm9L79R4ScVQ5caArEsEALw_wcB&hvadid=468486064298&hvdev=c&hvlocphy=1005411&hvnetw=g&hvqmt=e&hvrand=17795943171884106806&hvtargid=kwd-447246360207&hydadcr=7352_1813405&keywords=libros+mas+vendidos&qid=1666348817&qu=eyJxc2MiOiI2Ljk2IiwicXNhIjoiNi40MiIsInFzcCI6IjYuMDUifQ%3D%3D&sr=8-5"> El italiano </a></td>
+            </tr>
+            <tr>
+                <td> El algoritmo de Darwin </td>
+                <td> MA Rothman  </td>
+                <td>2022 </td>
+                <td><a href="https://www.amazon.es/El-Algoritmo-Darwin-M-Rothman/dp/841872028X/ref=sr_1_1_sspa?adgrpid=110351552776&gclid=Cj0KCQjwhsmaBhCvARIsAIbEbH5q8ASXBCLYrZRCwmaS7BzmC0iVce0Ml-ACPOyJItm9L79R4ScVQ5caArEsEALw_wcB&hvadid=468486064298&hvdev=c&hvlocphy=1005411&hvnetw=g&hvqmt=e&hvrand=17795943171884106806&hvtargid=kwd-447246360207&hydadcr=7352_1813405&keywords=libros+mas+vendidos&qid=1666348903&qu=eyJxc2MiOiI2Ljk2IiwicXNhIjoiNi40MiIsInFzcCI6IjYuMDUifQ%3D%3D&sr=8-1-spons&psc=1"> El algoritmo de Darwin </a></td>
+            </tr>
+        </table>
+    </body>
+</html>

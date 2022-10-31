@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Selectores</title>
+    <link rel="stylesheet" href="Css/ejercicioselectores.css">
+</head>
+<body>
+    <h1 class="Enunciado">Selectores, pseudo-clases y pseudo-elementos en CSS</h1>
+    <button class="boton"> <a href="https://www.youtube.com/watch?v=MACzQc6FlRM&list=RDMMMACzQc6FlRM&start_radio=1" target="_blank">Pasa por encima</a></button>
+</body>
+</html>
+
+
+CSS:
+.Enunciado {
+    color: chocolate;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+.boton:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    color: aliceblue;
+    background-color: green;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Tooltip</title>
+    <link rel="stylesheet" href="Ejerciciotooltip.css">
+</head>
+<body>
+    <button class="btn-modern"> <b> Botón Moderno</b> </button>
+</body>
+</html>
+
+
+
+CSS
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0%;
+}
+
+
+.btn-modern{
+    padding: 10px 10px;
+    background-color: aqua;
+    border-radius: 8px;
+    cursor: pointer;
+    border-style: dashed;
+}
+
+.btn-modern:hover{
+    background-color:darkcyan;
+    transform: translateY(-5px);
+    box-shadow: yellow 10px 10px  10px;
+    color: white;
+    transition: 0.4s;
+}
